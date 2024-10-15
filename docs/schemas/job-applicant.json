@@ -159,10 +159,12 @@
             "type": "string"
           },
            "startDate": {
-             "type": "string"
+             "type": "string",
+             "format": "date-time"
           },
           "endDate": {
-             "type": "string"
+             "type": "string",
+             "format": "date-time"
           },
            "jobDescription": {
              "type": "string"
@@ -183,7 +185,8 @@
             "type": "string"
           },
           "startAvailability": {
-            "type": "string"
+            "type": "string",
+            "format": "date-time"
           },
           "languagesKnown": {
             "type": "string"
