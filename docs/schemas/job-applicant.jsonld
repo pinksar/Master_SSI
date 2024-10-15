@@ -1,0 +1,117 @@
+{
+  "@context": [
+    {
+      "@version": 1.1,
+      "@protected": true,
+      "id": "@id",
+      "type": "@type",
+      "JobApplicant": {
+        "@id": "https://raw.githubusercontent.com/pinksar/Master_SSI/refs/heads/main/docs/schemas/job-applicant.jsonld#JobApplicant",
+        "@context": {
+          "@version": 1.1,
+          "@protected": true,
+          "id": "@id",
+          "type": "@type",
+          "vocab": "https://github.com/pinksar/Master_SSI/blob/main/docs/schemas/job-applicant-vocab.md",
+          "xsd": "http://www.w3.org/2001/XMLSchema#",
+          "firstname": {
+            "@id": "vocab:firstname",
+            "@type": "xsd:string"
+          },
+          "lastname": {
+            "@id": "vocab:lastname",
+            "@type": "xsd:string"
+          },
+          "email": {
+            "@id": "vocab:email",
+            "@type": "xsd:string"
+          },
+          "phone": {
+            "@id": "vocab:phone",
+            "@type": "xsd:integer"
+          },
+          "streetaddress": {
+            "@id": "vocab:streetaddress",
+            "@type": "xsd:string"
+          },
+          "city": {
+            "@id": "vocab:city",
+            "@type": "xsd:string"
+          },
+          "state": {
+            "@id": "vocab:state",
+            "@type": "xsd:string"
+          },
+          "zipcode": {
+            "@id": "vocab:zipcode",
+            "@type": "xsd:string"
+          },
+          "referencename": {
+            "@id": "vocab:referencename",
+            "@type": "xsd:string"
+          },
+          "referencephone": {
+            "@id": "vocab:referencephone",
+            "@type": "xsd:string"
+          },
+          "referenceemail": {
+            "@id": "vocab:referenceemail",
+            "@type": "xsd:string"
+          },
+          "referencerelationship": {
+            "@id": "vocab:referencerelationship",
+            "@type": "xsd:string"
+          },
+           "companyName": {
+            "@id": "vocab:companyName",
+            "@type": "xsd:string"
+          },
+          "jobTitle": {
+            "@id": "vocab:jobTitle",
+            "@type": "xsd:string"
+          },
+           "startDate": {
+            "@id": "vocab:startDate",
+            "@type": "xsd:dateTime"
+          },
+          "endDate": {
+            "@id": "vocab:endDate",
+            "@type": "xsd:dateTime"
+          },
+           "jobDescription": {
+            "@id": "vocab:jobDescription",
+            "@type": "xsd:string"
+          },
+          "schoolName": {
+            "@id": "vocab:schoolName",
+            "@type": "xsd:string"
+          },
+           "degree": {
+            "@id": "vocab:degree",
+            "@type": "xsd:string"
+          },
+          "positionApplied": {
+            "@id": "vocab:positionApplied",
+            "@type": "xsd:string"
+          },
+           "desiredSalary": {
+            "@id": "vocab:desiredSalary",
+            "@type": "xsd:string"
+          },
+          "desiredLocation": {
+            "@id": "vocab:desiredLocation",
+            "@type": "xsd:string"
+          },
+          "startAvailability": {
+            "@id": "vocab:startAvailability",
+            "@type": "xsd:dateTime"
+          },
+          "languagesKnown": {
+            "@id": "vocab:languagesKnown",
+            "@type": "xsd:string"
+          }
+        }
+      }
+    }
+  ]
+}
