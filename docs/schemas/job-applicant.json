@@ -177,7 +177,7 @@
              "type": "string"
           },
            "desiredSalary": {
-             "type": "integer"
+             "type": "number"
           },
           "desiredLocation": {
             "type": "string"
